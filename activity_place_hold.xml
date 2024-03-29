@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Genre:"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+
+        <Button
+            android:id="@+id/buttonComputerScience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer Science"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/buttonMemoir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memoir"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/buttonFiction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fiction"
+            android:layout_marginTop="8dp" />
+
+
+
+</LinearLayout>
+
